@@ -1,9 +1,7 @@
 #+TITLE: JavaScript Async/Await, Promises, Fetch and REST API
 #+DATE:<2025-05-16 Fri>
 
-* Async/Await in JS, Promises, Fetch and working with REST API
-
-** 1. Promises
+* 1. Promises
 Promises in JS - encapsulation of task execution;
 Has two methods - method to process result of promise and method to process error;
 
@@ -102,7 +100,7 @@ You are overlord of this server
 Bohdan@chnu.edu.ua
 #+end_src
 
-** 2. Async/Await
+* 2. Async/Await
 #+BEGIN_SRC js :results output
 async function someWork(ms) {
     return new Promise(resolve => setTimeout(resolve, ms))
@@ -127,7 +125,7 @@ first call to backend:
 second call to backend:
 third call to backend:
 
-** 3. Fetch, REST API, Requests to Backend
+* 3. Fetch, REST API, Requests to Backend
 =fetch= - built in function in =JS= for making =HTTP= requests. =Fetch= always returns a promise.
 =REST= - Representational State Transfer, standard for HTTP communication (client-server, microservices)
 (GraphQL)
