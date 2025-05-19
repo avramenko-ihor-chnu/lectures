@@ -56,8 +56,8 @@ myNewPromise.then((data) => {
 #+END_SRC
 
 #+begin_src bash
-: You are overlord of this server
-: { userName: 'Bohdan', role: 'Admin', isActive: true, age: 20 }
+You are overlord of this server
+{ userName: 'Bohdan', role: 'Admin', isActive: true, age: 20 }
 #+end_src
 
 ** Chaining of Promises
@@ -97,9 +97,9 @@ myNewPromise.then((data) => {
 #+END_SRC
 
 #+begin_src bash
-: You are overlord of this server
-: { userName: 'Bohdan', role: 'Admin', isActive: true, age: 20 }
-: Bohdan@chnu.edu.ua
+You are overlord of this server
+{ userName: 'Bohdan', role: 'Admin', isActive: true, age: 20 }
+Bohdan@chnu.edu.ua
 #+end_src
 
 ** 2. Async/Await
@@ -123,9 +123,9 @@ asyncTasksExecution();
 #+END_SRC
 
 #+RESULTS:
-: first call to backend:
-: second call to backend:
-: third call to backend:
+first call to backend:
+second call to backend:
+third call to backend:
 
 ** 3. Fetch, REST API, Requests to Backend
 =fetch= - built in function in =JS= for making =HTTP= requests. =Fetch= always returns a promise.
@@ -235,6 +235,6 @@ requestBackend();
 #+END_SRC
 
 #+begin_src bash
-: role: admin
-: { id: '682acad501ec4045e88cff7d' }
+role: admin
+{ id: '682acad501ec4045e88cff7d' }
 #+end_src
